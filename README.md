@@ -29,7 +29,7 @@ AgentScope 的 `GitSkillRepository` 会优先把仓库中的 `skills/` 目录当
 ## 在 HarnessAgent 中加载
 
 ```java
-import io.agentscope.core.skill.repository.git.GitSkillRepository;
+import io.agentscope.core.skill.repository.GitSkillRepository;
 import io.agentscope.harness.agent.HarnessAgent;
 
 GitSkillRepository skillRepository = new GitSkillRepository(
