@@ -20,7 +20,7 @@ Review Java code conservatively and prioritize concrete, actionable findings.
    - duplicated logic and hard-to-maintain control flow;
    - unnecessary complexity.
 4. Read `references/style-guide.md` when a consistent review rubric is useful.
-5. If shell execution is available, run `scripts/run-checks.sh <project-directory>` before finalizing. Treat script output as supporting evidence, not as the only source of truth.
+5. If shell execution is available, run `sh scripts/run-checks.sh <project-directory>` before finalizing. Treat script output as supporting evidence, not as the only source of truth.
 6. Report findings from highest impact to lowest impact.
 7. For each finding, explain:
    - where it occurs;
